@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "36667477029",
+    "project_id": "mgp-test-d9169",
+    "storage_bucket": "mgp-test-d9169.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:36667477029:android:aeeac8b009db00b40283cc",
+        "android_client_info": {
+          "package_name": "com.example.mgp1_test"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "36667477029-ork5tuk5uhodgm37j277afat3r0b8cae.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDdf8TU0gbKe8_frAAUPenx2m0S-8gSzgc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "36667477029-ork5tuk5uhodgm37j277afat3r0b8cae.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

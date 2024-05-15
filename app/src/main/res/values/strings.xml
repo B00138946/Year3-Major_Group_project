@@ -1,0 +1,43 @@
+<resources>
+    <string name="app_name">MGP1-TEST</string>
+    <string name="title_home">Home</string>
+    <string name="title_dashboard">Dashboard</string>
+    <string name="title_notifications">Notifications</string>
+    <string name="create_account">Create account</string>
+    <string name="enter_fullname">Enter fullname</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="create_account1">Create account</string>
+    <string name="username">Username</string>
+    <string name="first_name">First Name</string>
+    <string name="lastname">lastname</string>
+    <string name="last_name">Last Name</string>
+    <string name="reset_password">RESET PASSWORD</string>
+    <string name="enter_email">Enter Email</string>
+    <string name="sign_inT">SIGN IN</string>
+    <string name="send_code">Send Code</string>
+    <string name="camera">camera</string>
+    <string name="create_an_account1">create_an_account1</string>
+    <string name="create_account2">Create Account</string>
+    <string name="goals">Goals</string>
+    <string name="weight">Weight</string>
+    <string name="age">Age</string>
+    <string name="profileb">ProfileB</string>
+    <string name="profilebu">profileb</string>
+    <string name="quotes">Quotes</string>
+
+    <string name="bicep_res">bicep</string>
+    <string name="chest_res">chest</string>
+    <string name="back_res">back</string>
+    <string name="quads_res">quads</string>
+
+    <string name="bicep_muscle">you choose bicep</string>
+    <string name="chest_muscle">you choose chest</string>
+    <string name="back_muscle">you choose back</string>
+    <string name="quads_muscle">you choose quads</string>
+
+    <string name="muscle">Muscle</string>
+    <string name="quads1">Quads</string>
+    <string name="chest1">Chest</string>
+    <string name="back1">Back</string>
+    <string name="bicep1">Bicep</string>
+</resources>

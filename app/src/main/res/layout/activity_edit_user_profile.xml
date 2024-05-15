@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".EditUserProfile"
+    android:background="@color/backgroundColor">>
+
+
+    <TextView
+        android:id="@+id/editProfileTitle"
+        android:layout_width="229dp"
+        android:layout_height="68dp"
+        android:layout_marginBottom="480dp"
+        android:text="Edit Details"
+        android:textColor="@color/red"
+        android:textSize="30dp"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.786"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+
+
+
+
+    <EditText
+        android:id="@+id/editAge"
+        android:layout_width="126dp"
+        android:layout_height="68dp"
+        android:layout_marginBottom="360dp"
+        android:hint="Age"
+        android:textColor="@color/red"
+        android:backgroundTint="@color/red"
+        android:textColorHint="@color/red"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <EditText
+        android:id="@+id/editWeight"
+        android:layout_width="126dp"
+        android:layout_height="68dp"
+        android:layout_marginBottom="272dp"
+        android:hint="Weight"
+        android:textColor="@color/red"
+        android:backgroundTint="@color/red"
+        android:textColorHint="@color/red"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.115"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <EditText
+        android:id="@+id/editGoals"
+        android:layout_width="297dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="164dp"
+        android:hint="Goals"
+        android:textColor="@color/red"
+        android:backgroundTint="@color/red"
+        android:textColorHint="@color/red"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.428"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+    <Button
+        android:id="@+id/SaveProfile"
+        android:layout_width="253dp"
+        android:layout_height="64dp"
+        android:layout_marginBottom="80dp"
+        android:onClick="updateSave"
+        android:text="Save"
+        android:textStyle="bold"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintHorizontal_bias="0.504"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintRight_toRightOf="parent" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>
